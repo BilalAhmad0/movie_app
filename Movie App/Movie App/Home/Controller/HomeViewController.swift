@@ -160,6 +160,7 @@ final class HomeViewController: UIViewController {
         return layout
     }
     
+    // creating season section layout
     private func createSeasonSection() -> NSCollectionLayoutSection {
         
         let seasonItem = CompositionalLayout.createItem(width: .fractionalWidth(1), height: .absolute(50))
@@ -174,6 +175,7 @@ final class HomeViewController: UIViewController {
         return section
     }
     
+    // creating episode section layout
     private func createEpisodeSection() -> NSCollectionLayoutSection {
         
         let episodeItem = CompositionalLayout.createItem(width: .fractionalWidth(1), height: .fractionalHeight(1))
